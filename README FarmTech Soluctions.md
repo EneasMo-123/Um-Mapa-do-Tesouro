@@ -7,9 +7,9 @@
 
 <br>
 
-# Projeto: Sistema de Monitoramento Agrícola com Sensores
+# Projeto: Um Mapa do Tesouro
 
-## Grupo de Três
+## Top Three FIAP
 
 ### Integrantes:
 - Caio Oliveira: https://www.linkedin.com/in/caiooliveiraeti/ 
@@ -31,14 +31,11 @@ O projeto visa desenvolver um sistema de armazenamento e análise de dados prove
 - **S2:** Sensor de pH
 - **S3:** Sensor de Nutrientes (Fósforo e Potássio)
 
-Com base nos dados, o sistema sugerirá ajustes e otimizações, podendo prever necessidades futuras tanto de insumos quanto de irrigação, visando otimizar os resultados da cultua.
-
----
+Com base nos dados, o sistema sugerirá ajustes e otimizações, podendo prever necessidades futuras tanto de insumos quanto de irrigação, visando otimizar os resultados da cultura.
 
 ## Objetivo e Abordagem
 
 Definir os fatores que influenciam:
-
 - Umidade do solo
 - Acidez (pH)
 - Concentração de NPK
@@ -65,12 +62,9 @@ O foco será nos fatores que podem ser medidos com sensores.
 - pH do solo
 - Práticas agrícolas
 
----
-
 ## Tipos de Sensores
 
 ### Sensor de Umidade (Capacitivo)
-
 - Medição: % VWC (Volumetric Water Content)
 - Faixas típicas:
   - Solo seco: 5–15%
@@ -169,15 +163,13 @@ O foco será nos fatores que podem ser medidos com sensores.
 | data_leitura_acidez   | Data da leitura       | Numérico     | -        |
 | hora_leitura_acidez   | Hora da leitura       | Numérico     | -        |
 
----
-
 ## Modelo Relacional
 
 - **AREA** → 1:N → **SAFRA_IMPLANTACAO**
 - **CULTURA** → 1:N → **SAFRA_IMPLANTACAO**
 - **SAFRA_IMPLANTACAO** → N:1 → **SENSOR_UMIDADE**, **SENSOR_ACIDEZ**, **SENSOR_NPK**
 
----
+
 ## 📁 Estrutura de pastas
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
