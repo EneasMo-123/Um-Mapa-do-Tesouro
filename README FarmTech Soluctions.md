@@ -172,18 +172,8 @@ O foco será nos fatores que podem ser medidos com sensores.
 
 ## 📁 Estrutura de pastas
 
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
-
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
-
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
-
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
-
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
-
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
-
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
-
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+### Modelo de dados Projeto FarmTech Solutions - Dados Data Modeler
+### Modelo de dados Projeto FarmTech Solutions.dmd - iniciador do Oracle
+### README - desconsiderar
+### README FarmTech Solutions.md 
+### Relational_Um Mapa do Tesouro.png - imagem do modelo gerada pelo Data Modeler
