@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DE423C7-16A3-8547-1CE7-E42B5A9AAC55" name="SENSOR_ACIDEZ">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>37A73674-9751-E089-90D8-428CC44CF5E5</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_leitura_ph" id="AD7761D1-9897-C539-7A3E-A76ABE5AC040">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>D780A0F8-76D2-213D-C104-09BA1935BEAC</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SAFRA_IMPLANTACAO_id_safra" id="FA574045-4E0D-2E63-C784-C362796A133E">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>C76A4A48-137D-7020-6CA6-800345634867</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C0805C7-3594-8CD9-C0EB-A2EA5F50DA59" referredColumn="8FD1E73C-661D-49B3-3EA4-A96A52C41B3E"/>
+</associations>
+</Column>
+<Column name="leitura_acidez" id="F3C456A7-DB61-EDCE-3508-57505D62C1CB">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>71B7C0C8-50BD-6B16-9460-033B8A861A04</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_leitura_acidez" id="8F053AB5-9CDD-3013-44E8-9660D98FC094">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>78A0CD78-3DCD-15AA-5298-8F83BC301377</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_leitura_acidez" id="10D6A023-C387-A41F-7965-75DFBCE04431">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>90F81425-FBB0-50B4-7354-7CF2068FAE09</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C500A4E8-38E2-8E69-CCEF-85C922F8A2EA" name="PK_SENSOR_ACIDEZ">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>FEEEF411-479E-F036-9DA1-5EF4CB31A2DF</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD7761D1-9897-C539-7A3E-A76ABE5AC040"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9E2DDE3-24E7-927A-2116-1B245766287E" name="FK_SENSOR_ACIDEZ_SAFRA_IMPLANTACAO">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>89EB9762-A651-6770-1CE8-631DDC6944D5</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA574045-4E0D-2E63-C784-C362796A133E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

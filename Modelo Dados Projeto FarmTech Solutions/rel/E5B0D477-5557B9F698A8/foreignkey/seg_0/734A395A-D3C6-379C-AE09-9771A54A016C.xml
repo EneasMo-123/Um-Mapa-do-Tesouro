@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="734A395A-D3C6-379C-AE09-9771A54A016C" containerWithKeyObject="0D7A0AB5-41CD-3C34-DD28-CC5A7FD5A59F" localFKIndex="0CD1CDEE-ED5E-3C25-D128-D11871DB1BD8" name="FK_SENSOR_UMIDADE_SAFRA_IMPLANTACAO">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>63329A23-776A-4197-65AB-F8D80EF835E1</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<referredTableLongName>SAFRA_IMPLANTACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>20037C93-5E25-A4F3-0ECF-0B740ED4AFC7</referredTableID>
+<keyObject>6E068797-0DD5-3E29-8246-7E36DB13027C</keyObject>
+<referredKeyID>6E068797-0DD5-3E29-8246-7E36DB13027C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_safra</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

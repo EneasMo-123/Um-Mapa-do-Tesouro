@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="476943FE-F2E8-C6E2-5605-3323D2752A8B" name="AREA">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<generatorID>CBBD95A6-9CFC-39A1-C1B7-7113D92C580F</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_area" id="E40C274A-F459-36BE-EE63-A225581E42B8">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<generatorID>AA65AED1-E905-712D-B7AE-38D09E6852D2</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="area_cult_ha" id="DDB21F6E-A1C6-BD45-B458-9FA6C0939600">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Área de cada talião de cultivo, medido em hectares e inputado pelo usuário.]]></commentInRDBMS>
+<generatorID>1DFD03C4-CE6D-4FE3-624E-524A17DCB5D1</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="umidade_inicial" id="806DE549-7D0D-3121-D8CE-FDB2B41E21DD">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Umidade inicial medida no dia anterior ao início do plantio da SAFRA]]></commentInRDBMS>
+<generatorID>AE77DC36-19CB-3EDF-3A32-D44049ACA130</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="acidez_inicial" id="294A3B55-3989-FBD5-7A29-F07411020ACA">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Acidez (pH) inicial medido no dia anterior ao início do plantio da SAFRA]]></commentInRDBMS>
+<generatorID>9044E6B0-351B-AC06-084D-478642466722</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_inicial" id="3D6FCF0F-B996-32B6-DDFA-E96168F8F8B4">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nitrogênio (N) medido no dia anterior ao do início do plantio da SAFRA]]></commentInRDBMS>
+<generatorID>FAB544A2-842C-3C41-E963-2CA1F279AFAD</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="p_inicial" id="38362A71-258A-9E5E-C54D-4D4530234BCC">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fósforo (P) inicial medido no dia anterior ao do início do plantio da SAFRA]]></commentInRDBMS>
+<generatorID>516967C8-DE73-DBC2-C10F-C73F453F6A17</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="k_inicial" id="717F12FF-1EFD-7C19-6899-B795E7087CAD">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Potássio (K) inicial medido no dia anterior ao do início do plantio da SAFRA]]></commentInRDBMS>
+<generatorID>7F990E38-0272-5EC5-B033-4908880A3746</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_area" id="1D979437-B641-FA74-492A-D343A03A2334">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da área]]></commentInRDBMS>
+<generatorID>C9E09229-6B73-E853-1AF5-40B0C0CD9D9D</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01B389C3-E638-9C1F-748C-784840E0541A" name="PK_AREA">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<generatorID>8D8A1636-D77B-155B-0101-1833E3792F49</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E40C274A-F459-36BE-EE63-A225581E42B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0507B95A-6430-3450-EF7E-FE95923C7E66" name="UN_AREA_NOMEv2">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:36:03 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D979437-B641-FA74-492A-D343A03A2334"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_AREA_1" directorySegmentName="seg_0" id="1B7D60CD-8AAB-E108-1070-A43CE8E1F222">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:45:17 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<rule><![CDATA[area_cult_ha > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_AREA_2" directorySegmentName="seg_0" id="B41CEBC7-E6B6-8831-2218-576CDA1B9207">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:45:35 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<rule><![CDATA[umidade_inicial > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_AREA_3" directorySegmentName="seg_0" id="5D560037-3991-AA20-9EF7-B9A85A099AFA">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:45:48 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<rule><![CDATA[acidez_inicial > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_AREA_4" directorySegmentName="seg_0" id="F8B7D4C8-6EF9-D319-250E-FFE023C56A92">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:46:04 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<rule><![CDATA[nitrogenio_inicial > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_AREA_5" directorySegmentName="seg_0" id="E68DA556-9EF4-7D2D-730E-356EE658DB1B">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:46:25 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<rule><![CDATA[fosforo_inicial > 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

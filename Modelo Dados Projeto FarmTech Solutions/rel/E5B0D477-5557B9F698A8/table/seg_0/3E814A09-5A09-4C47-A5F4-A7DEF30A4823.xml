@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E814A09-5A09-4C47-A5F4-A7DEF30A4823" name="CULTURAv2">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>08D282BC-E915-1C1C-91C2-5F7ED1188EC3</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_cultura" id="015F9D83-FFC3-10AD-ADA7-C3B866793945">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>725EDF75-CBDA-E312-6311-8DA2C3DADF87</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_cultura" id="DB6A6853-5C7A-EB33-D20E-88CC158BBC71">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>8328AAA8-3F48-B48F-FAEB-D637FA7B9115</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="acidez_ideal" id="287FB161-9C11-ED58-85A6-97F1B94C7900">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>2262E5BA-5450-0779-C3C8-F2B79BD49A25</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="umidade_ideal" id="52C84A35-9342-E5C4-58CA-3F62CBF7171B">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>C184A68B-1287-AECE-ADA8-A3124FE4281D</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="p_ideal" id="B4087815-EA3A-368E-A1CD-5384F3BFF227">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>06B3CAF1-3C29-157B-793C-439DAF5BC621</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_ideal" id="DE8E23FA-95E3-2BEF-E3EA-9A8644348A6E">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>C1224F12-EFAA-79C4-AB67-E18193ED642B</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="k_ideal" id="FA2D2385-E5D6-23FF-9526-F1FAD6B3FA1F">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>A1E97568-8759-F702-322D-169D8C773FE3</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="producao_ideal" id="6AA319CB-ED0F-9FA7-912C-3CDF4AE8EC58">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>962A2BFD-8796-11F1-B0ED-DF18A8C0A1E4</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4476DB8F-5641-5391-B9E8-4ED575A038D1" name="PK_CULTURAv1">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>5E9628C4-4ACA-B707-745C-D78CD9261123</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="015F9D83-FFC3-10AD-ADA7-C3B866793945"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

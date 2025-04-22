@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="capturar" directorySegmentName="seg_0" id="117F0E63-70CE-8E3A-95A3-E2E71D0FF875">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:44:14 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="true"/>
+</engineerTo>
+<sourcePk>1961CF8C-65DF-5952-90F4-8B1F0C56F5CC</sourcePk>
+<targetPk>EBA1920A-17AB-FBF7-BC39-D8F73A423B58</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4F53E2B0-13DB-65F0-5B2E-0578E037C26A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BD9AA3EB-8531-302B-1A8C-8C93A1FF915F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37A73674-9751-E089-90D8-428CC44CF5E5" name="SENSOR ACIDEZ">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-14 23:03:19 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_leitura_ph" id="D780A0F8-76D2-213D-C104-09BA1935BEAC">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-14 23:03:32 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_safra" id="C76A4A48-137D-7020-6CA6-800345634867">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:45:26 UTC</createdTime>
+<generatorID>89EB9762-A651-6770-1CE8-631DDC6944D5</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="true"/>
+</engineerTo>
+<referedAttribute>AE14A583-7B80-EFF7-1FA5-55A6A1EA9621</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="leitura_acidez" id="71B7C0C8-50BD-6B16-9460-033B8A861A04">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-14 23:03:52 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_leitura_acidez" id="78A0CD78-3DCD-15AA-5298-8F83BC301377">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-14 23:04:10 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_leitura_acidez" id="90F81425-FBB0-50B4-7354-7CF2068FAE09">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-14 23:04:27 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FEEEF411-479E-F036-9DA1-5EF4CB31A2DF" name="SENSOR ACIDEZ PK">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-14 23:36:53 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D780A0F8-76D2-213D-C104-09BA1935BEAC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

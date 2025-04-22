@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20037C93-5E25-A4F3-0ECF-0B740ED4AFC7" name="SAFRA_IMPLANTACAO">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<generatorID>4F53E2B0-13DB-65F0-5B2E-0578E037C26A</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_safra" id="8FD1E73C-661D-49B3-3EA4-A96A52C41B3E">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código identificação de um SAFRA plantada na AREA com a respectiva CULTURA]]></commentInRDBMS>
+<generatorID>AE14A583-7B80-EFF7-1FA5-55A6A1EA9621</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_cultura" id="B45CE8D3-6F8C-D913-41ED-25C689D04878">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<generatorID>278269BE-C20E-6D43-FCAA-5171E5C595F3</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cultura_plantada" id="EB9AF210-7600-3DFB-9090-315CF0CF20F1">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Selecionar a CULTURA plantada na AREA  para determinada SAFRA]]></commentInRDBMS>
+<generatorID>8CB13537-609A-C031-AE5B-0466A44B44EE</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_plantio" id="98E1B777-8CD7-1F5B-1DC2-E706488E8D9E">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data do início do plantio, inputada pelo usuário]]></commentInRDBMS>
+<generatorID>A48140C4-2E63-3944-2350-2E8A55F20BB0</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_colheita" id="7BDF24CA-B062-7F21-B211-408FD8BB58BC">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data do fim da colheita, conforme inputado pelo usuário]]></commentInRDBMS>
+<generatorID>555C1539-AF10-F0F3-56D7-77289A7E4F9F</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="producao_total" id="C1724AD5-B805-E570-5132-2C8A16DA151E">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Volume final produzido na safra, em toneladas de grãos]]></commentInRDBMS>
+<generatorID>64BD0D65-66E8-67A7-A673-092668DE4B1B</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AREA_cod_area1" id="74D5C219-2490-C6BE-4FFE-8EFA65ED56AF">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>3BDC8EC2-03B4-592B-3C12-62857A1BD361</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA46620A-5F61-B480-C419-45847E994473" referredColumn="E40C274A-F459-36BE-EE63-A225581E42B8"/>
+</associations>
+</Column>
+<Column name="CULTURAv1_cod_cultura" id="87A3446E-D449-D405-2ED8-78532E10A8A8">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>1DF0C57C-4687-2B7B-25AC-C40576EB5157</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B832CB92-F2ED-FA11-181E-F006D445211C" referredColumn="015F9D83-FFC3-10AD-ADA7-C3B866793945"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E068797-0DD5-3E29-8246-7E36DB13027C" name="PK_SAFRA_IMPLANTACAO">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<generatorID>1961CF8C-65DF-5952-90F4-8B1F0C56F5CC</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FD1E73C-661D-49B3-3EA4-A96A52C41B3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E459913D-F544-ABC9-F15A-8215181176F4" name="SAFRA_IMPLANTACAO__IDX">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-13 14:26:03 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>034351B5-5C20-F199-2AB4-0FDDC4A25334</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="BED37B64-0297-3F91-9CDB-2ECCA3659D28" name="FK_SAFRA_IMPLANTACAO_AREAv1">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>5A6C24F0-A6F6-1BE8-A4C9-181F8F9D4150</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74D5C219-2490-C6BE-4FFE-8EFA65ED56AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE925C10-A35A-6AAC-3D21-5B4540619295" name="FK_SAFRA_IMPLANTACAO_CULTURAv1">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>34ACDB60-545E-0DF3-829A-BB4D99D9FDD9</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87A3446E-D449-D405-2ED8-78532E10A8A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

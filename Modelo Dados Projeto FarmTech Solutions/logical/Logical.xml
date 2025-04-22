@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="5EBFFCF3-6C4B-86F4-9A24-F4C96D538B3B" mainViewID="E2B05FA9-F917-7002-EF5A-EE527F1E6FAC">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-12 14:14:18 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB6FCBCE-080F-0148-EA0F-B26C608D60F3" name="SENSOR UMIDADE">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-14 23:57:46 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_leitura_umidade" id="338473C8-B69D-A124-2C0A-FC9BADB0EF58">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 00:00:15 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_safra" id="E33CCE10-EB8E-2923-517D-532B87758971">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:45:05 UTC</createdTime>
+<generatorID>63329A23-776A-4197-65AB-F8D80EF835E1</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="true"/>
+</engineerTo>
+<referedAttribute>AE14A583-7B80-EFF7-1FA5-55A6A1EA9621</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="leitura_umidade" id="FD18F0A8-3C9C-7B03-D68B-A407049DEE3D">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 00:00:30 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_leitura_umidade" id="B88EE829-564D-93C2-06A7-4FCFF821262B">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 00:00:59 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_leitura_umidade" id="BEC28F46-A5B3-A17D-211A-E5FDE7233EA4">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 00:01:16 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53FF5E2A-300F-78EE-63BA-7F2C6CC1F93F" name="SENSOR UMIDADE 2 PK">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 00:00:25 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E5B0D477-18C2-E1F2-600D-5557B9F698A8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>338473C8-B69D-A124-2C0A-FC9BADB0EF58</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

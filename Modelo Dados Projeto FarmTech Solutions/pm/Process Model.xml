@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="3CC15D37-D036-7F66-40B6-6398DE7F2357">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-12 14:14:18 UTC</createdTime>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0957487-FAE3-F355-C522-06A12100668D" name="SENSOR_NPK">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>BD9AA3EB-8531-302B-1A8C-8C93A1FF915F</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_leitura_npk" id="5775B41A-91B7-2103-38B1-82B6AD16240F">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>4DB1DD72-D348-BAA1-B394-BCD76A612511</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SAFRA_IMPLANTACAO_id_safra" id="4F9FB73F-3A15-84E1-F3FF-50686B9DE8DB">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>16DE4654-3D36-9BF5-BF90-2C17102DC74E</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDA018EB-556B-86B9-3315-54BDDBDEC455" referredColumn="8FD1E73C-661D-49B3-3EA4-A96A52C41B3E"/>
+</associations>
+</Column>
+<Column name="leitura_fosforo" id="BE3AAD0E-F48F-6F47-B511-E7710E7E2A40">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>55A46EFC-0C14-B062-4E64-D4C6D9C58D36</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="leitura_potassio" id="8C305CC8-59A7-712D-0920-CF100BBDE1FD">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>752067F9-CA3C-1A23-1827-579B1F65FFAF</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="leitura_nitrogenio" id="E1FE13B6-5729-4D9B-B768-FEDEF8863854">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>7E9B72DD-C8B4-934C-B46A-E4BA2DDC76A4</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_leitura_npk" id="CCA1AF96-02F9-4681-B738-EA67DE515356">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>DC0314D7-239A-E2F5-ED19-8307B0F1AB69</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_leitura_npk" id="DF91BF00-C8E7-4818-B75E-9C1A5640D8EC">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>042064E2-B289-C3EC-4BD3-B3465601A92D</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="577A4462-F32A-5FD9-26ED-81AA18C20E87" name="PK_SENSOR_NPK">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>EBA1920A-17AB-FBF7-BC39-D8F73A423B58</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5775B41A-91B7-2103-38B1-82B6AD16240F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94161DEE-674D-E7AD-255D-2E2E3D371C57" name="FK_SENSOR_NPK_SAFRA_IMPLANTACAO">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>117F0E63-70CE-8E3A-95A3-E2E71D0FF875</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F9FB73F-3A15-84E1-F3FF-50686B9DE8DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

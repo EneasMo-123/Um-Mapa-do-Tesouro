@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B832CB92-F2ED-FA11-181E-F006D445211C" containerWithKeyObject="20037C93-5E25-A4F3-0ECF-0B740ED4AFC7" localFKIndex="CE925C10-A35A-6AAC-3D21-5B4540619295" name="FK_SAFRA_IMPLANTACAO_CULTURAv1">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>34ACDB60-545E-0DF3-829A-BB4D99D9FDD9</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<referredTableLongName>CULTURAv2</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E814A09-5A09-4C47-A5F4-A7DEF30A4823</referredTableID>
+<keyObject>4476DB8F-5641-5391-B9E8-4ED575A038D1</keyObject>
+<referredKeyID>4476DB8F-5641-5391-B9E8-4ED575A038D1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_cultura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

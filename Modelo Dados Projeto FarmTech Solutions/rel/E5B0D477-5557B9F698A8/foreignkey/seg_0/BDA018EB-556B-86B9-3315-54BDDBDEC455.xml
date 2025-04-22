@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BDA018EB-556B-86B9-3315-54BDDBDEC455" containerWithKeyObject="B0957487-FAE3-F355-C522-06A12100668D" localFKIndex="94161DEE-674D-E7AD-255D-2E2E3D371C57" name="FK_SENSOR_NPK_SAFRA_IMPLANTACAO">
+<createdBy>Dell</createdBy>
+<createdTime>2025-04-15 22:51:48 UTC</createdTime>
+<generatorID>117F0E63-70CE-8E3A-95A3-E2E71D0FF875</generatorID>
+<ownerDesignName>Modelo Dados Projeto FarmTech Solutions</ownerDesignName>
+<referredTableLongName>SAFRA_IMPLANTACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>20037C93-5E25-A4F3-0ECF-0B740ED4AFC7</referredTableID>
+<keyObject>6E068797-0DD5-3E29-8246-7E36DB13027C</keyObject>
+<referredKeyID>6E068797-0DD5-3E29-8246-7E36DB13027C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_safra</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
