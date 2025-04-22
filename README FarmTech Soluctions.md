@@ -113,7 +113,7 @@ O foco será nos fatores que podem ser medidos com sensores.
 |--------------------|----------------------------------------|--------------|-------------|
 | id_safra           | Identificador da safra                 | Numérico     | Primária    |
 | cod_area           | Relação com AREA                       | Numérico     | Estrangeira |
-| cod_cultura1       | Relação com CULTURA                    | Numérico     | Estrangeira |
+| cod_cultura        | Relação com CULTURA                    | Numérico     | Estrangeira |
 | id_leitura_npk     | Sensor NPK                             | Numérico     | Estrangeira |
 | id_leitura_ph      | Sensor pH                              | Numérico     | Estrangeira |
 | id_leitura_umidade | Sensor Umidade                         | Numérico     | Estrangeira |
