@@ -14,14 +14,14 @@
 ### Integrantes:
 - Caio Oliveira: https://www.linkedin.com/in/caiooliveiraeti/ 
 - Enéas Moreira: https://www.linkedin.com/in/en%C3%A9as-moreira-4bbaab136/
-- William Xavier: https://www.linkedin.com/in/williamxavier22/  
+- William Xavier: https://www.linkedin.com/in/william--xavier/
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/in/lucas-gomes-moreira-15a8452a/">Nome do Tutor</a>
+- <a href="https://www.linkedin.com/in/lucas-gomes-moreira-15a8452a/">Lucas Gomes</a>
 
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/in/andregodoichiovato/">Nome do Coordenador</a>
+- <a href="https://www.linkedin.com/in/andregodoichiovato/">Andre Godoi</a>
 
 ### O Projeto
 
